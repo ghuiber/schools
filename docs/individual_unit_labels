@@ -1,0 +1,67 @@
+Data Item,Description
+IDCENSUS,School System Identification Number1
+NAME,School System Name1
+CONUM,ANSI State and County Code1
+CSA,Consolidated Statistical Area1
+CBSA,Core-Based Statistical Area1
+NCESID,NCES Indentification Number1
+ENROLL,Fall Membership
+TOTALREV,Total Elementary-Secondary Revenue
+TFEDREV,Total Revenue from Federal Sources
+FEDRCOMP,Compensatory (Title I)
+FEDRSPEC,Children with disabilities
+FEDRNUTR,Child Nutrition Act
+FEDROTHR,All other federal aid
+TSTREV,Total Revenue from State Sources
+STRFORM,General formula assistance
+STRSPEC,Special education programs
+STRTRANS,Transportation programs
+STROTHR,All other state revenue
+TLOCREV,Total Revenue from Local Sources
+LOCRTAX,All taxes
+LOCRPROP,Property taxes
+LOCRPAR,Parent government contributions
+LOCRCICO,Revenue from cities and counties
+LOCROSCH,Revenue from other school systems
+LOCRCHAR,Charges
+LOCROTHR,Other local revenues
+TOTALEXP,Total Elementary-Secondary Expenditure
+TCURSPND,Total Current Spending
+TSALWAGE,Total salaries and wages
+TEMPBENE,Total employee benefit payments
+TCURINST,Total Current Spending for Instruction
+TCURISAL,Salaries and wages for instruction
+TCURIBEN,Employee benefits for instruction
+TCURSSVC,Total Current Spending for Support Services
+TCURSPUP,Pupil support
+TCURSSTA,Instructional staff support
+TCURSGEN,General administration
+TCURSSCH,School administration
+TCURSOTH,Other and nonspecified
+TCURONON,Other Current Spending
+TCAPOUT,Total Capital Outlay Expenditure
+TPAYOTH,Payments to Other Governments
+TINTRST,Interest on School System Indebtedness
+DEBTOUT,Long-term debt outstanding at end of the fiscal year
+LONGISSU,Long-term debt issued during the fiscal year
+LONGRET,Long-term debt retired during the fiscal year
+PCTTOTAL,PERCENT - TOTAL ELEMENTARY-SECONDARY REVENUE
+PCTFTOT,Percent - Total Revenue from Federal Sources
+PCTFCOMP,Percent - Compensatory (Title I)
+PCTSTOT,Percent - Total Revenue from State Sources
+PCTSFORM,Percent - General formula assistance
+PCTLTOT,Percent - Total Revenue from Local Sources
+PCTLTAXP,Percent - Taxes & parent government contributions
+PCTLOTHG,Percent - Revenue from other local governments
+PCTLCHAR,Percent - Charges
+PPCSTOT,PER PUPIL - TOTAL CURRENT SPENDING (ELEMENTARY-SECONDARY)1
+PPSALWG,Per Pupil - Total salaries and wages
+PPEMPBEN,Per Pupil - Total employee benefit payments
+PPITOTAL,Per Pupil - Total Current Spending for Instruction
+PPISALWG,Per Pupil - Salaries and wages
+PPIEMBEN,Per Pupil - Employee benefits
+PPSTOTAL,Per Pupil - Total Current Spending for Support Services
+PPSPUPIL,Per Pupil - Pupil support
+PPSSTAFF,Per Pupil - Instructional staff support
+PPSGENAD,Per Pupil - General administration
+PPSSCHAD,Per Pupil - School administration

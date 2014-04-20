@@ -1,0 +1,143 @@
+Data Item,Description
+STATE,State Identification Number
+IDCENSUS,School System Identification Number1
+NAME,School System Name
+CONUM,ANSI State and County Code1
+CSA,Consolidated Statistical Area1
+CBSA,Core-Based Statistical Area1
+SCHLEV,School Level Code1
+NCESID,NCES ID Code1
+YRDATA,Year of Data
+V33,Fall Membership
+TOTALREV,TOTAL ELEMENTARY-SECONDARY REVENUE - sum of TFEDREV TSTREV TLOCREV
+TFEDREV,Total Revenue from Federal Sources
+C14,Federal revenue through the state - Compensatory (Title I)
+C15,Federal revenue through the state - Children with disabilities IDEA
+C16,Federal revenue through the state - Math science and teacher quality
+C17,Federal revenue through the state - Safe and drug free schools
+C19,Federal revenue through the state - Vocational and technical education
+B11,Federal revenue through the state - Bilingual education
+C20,Federal revenue through the state - All other
+C25,Federal revenue through the state - Child nutrition programs
+C36,Federal revenue - Nonspecified
+B10,Direct federal revenue - Impact aid (P.L. 815 and 874)
+B12,Direct federal revenue - Native American (Indian) education
+B13,Direct federal revenue - All other
+TSTREV,Total Revenue from State Sources
+C01,General formula assistance
+C04,Staff improvement programs
+C05,Special education programs
+C06,Compensatory and basic skills programs
+C07,Bilingual education programs
+C08,Gifted and talented programs
+C09,Vocational education programs
+C10,School lunch programs
+C11,Capital outlay and debt service programs
+C12,Transportation programs
+C13,All other revenues from state sources
+C24,Census state NCES local revenue
+C35,State revenue - Nonspecified
+C38,State payments on behalf - Benefits
+C39,State payments on behalf - Nonbenefits
+TLOCREV,Total Revenue from Local Sources
+T02,Parent government contributions
+T06,Property taxes
+T09,General sales or gross receipts taxes
+T15,Public utility taxes
+T40,Individual and corporate income taxes
+T99,All other taxes
+D11,Revenue from other school systems
+D23,Revenue from cities and counties
+A07,Tuition fees from pupils and parents
+A08,Transportation fees from pupils and parents
+A09,School lunch revenues
+A11,Textbook sales and rentals
+A13,Student activity receipts
+A15,Student fees nonspecified
+A20,Other sales and service revenues
+A40,Rents and royalties
+U11,Sale of property
+U22,Interest earnings
+U30,Fines and forfeits
+U50,Private contributions
+U97,Miscellaneous other local revenues
+TOTALEXP,TOTAL ELEMENTARY-SECONDARY EXPENDITURE - sum of TCURELSC NONELSEC TCAPOUT L12 Q11 I86
+TCURELSC,TOTAL CURRENT SPENDING FOR ELEMENTARY-SECONDARY PROGRAMS - sum of TCURINST TCURSSVC TCUROTH
+TCURINST,TOTAL CURRENT SPENDING FOR INSTRUCTION
+E13,Current operation expenditure - Instruction
+J13,State payments on behalf - Instruction benefits
+J12,Own retirement system transfer - Instruction
+J14,State payments on behalf - Instruction nonbenefits
+V91,Exhibit - Payments to private schools
+V92,Exhibit - Payments to charter schools
+TCURSSVC,TOTAL CURRENT SPENDING FOR SUPPORT SERVICES
+E17,Current operation expenditure - Pupil support
+E07,Current operation expenditure - Instructional staff support
+E08,Current operation expenditure - General administration
+E09,Current operation expenditure - School administration
+V40,Current operation expenditure - Operation and maintenance of plant
+V45,Current operation expenditure - Student transportation
+V90,Current operation expenditure - Business/central/other support services
+V85,Current operation expenditure - Nonspecified support services
+J17,State payments on behalf - Pupil support benefits
+J07,State payments on behalf - Instructional staff support benefits
+J08,State payments on behalf - General administration benefits
+J09,State payments on behalf - School administration benefits
+J40,State payments on behalf - Operation and maintenance of plant benefits
+J45,State payments on behalf - Student transportation benefits
+J90,State payments on behalf - Business/central/other support services benefits
+J11,Own retirement system transfer - Support services
+J96,State payments on behalf - Support services nonbenefits
+TCUROTH,TOTAL CURRENT SPENDING FOR OTHER ELEMENTARY-SECONDARY PROGRAMS
+E11,Current operation expenditure - Food services
+V60,Current operation expenditure - Enterprise operations
+V65,Current operation expenditure - Other elementary-secondary programs
+J10,State payments on behalf - Other benefits
+J97,State payments on behalf - Noninstructional and nonbenefits
+NONELSEC,TOTAL CURRENT SPENDING FOR NONELEMENTARY-SECONDARY PROGRAMS
+V70,Current operation expenditure - Community services
+V75,Current operation expenditure - Adult education
+V80,Current operation expenditure - Other nonelementary-secondary programs
+J98,State payments on behalf - Nonelementary-secondary programs
+TCAPOUT,TOTAL CAPITAL OUTLAY EXPENDITURE
+F12,Construction
+G15,Purchase of land and existing structures
+K09,Instructional equipment
+K10,Other equipment
+K11,Nonspecified equipment
+J99,State payments on behalf - Capital outlay
+L12,Payments to state governments
+M12,Payments to local governments
+Q11,Payments to other school systems
+I86,Interest on school system debt
+Z32,Total salaries and wages
+Z33,Total salaries and wages - Instruction
+V11,Total salaries and wages - Pupil support
+V13,Total salaries and wages - Instructional staff support
+V15,Total salaries and wages - General administration
+V17,Total salaries and wages - School administration
+V21,Total salaries and wages - Operation and maintenance of plant
+V23,Total salaries and wages - Student transportation
+V37,Total salaries and wages - Business/central/other support services
+V29,Total salaries and wages - Food services
+Z34,Total employee benefit payments
+V10,Total employee benefit payments - Instruction
+V12,Total employee benefit payments - Pupil support
+V14,Total employee benefit payments - Instructional staff
+V16,Total employee benefit payments - General administration
+V18,Total employee benefit payments - School administration
+V22,Total employee benefit payments - Operation and maintenance of plant
+V24,Total employee benefit payments - Student transportation
+V38,Total employee benefit payments - Business/central/other support services
+V30,Total employee benefit payments - Food services
+V32,Total employee benefit payments - Enterprise operations
+_19H,Long-term debt outstanding at beginning of the fiscal year
+_21F,Long-term debt issued during the fiscal year
+_31F,Long-term debt retired during the fiscal year
+_41F,Long-term debt outstanding at end of fiscal year
+_61V,Short-term debt outstanding at beginning of the fiscal year
+_66V,Short-term debt outstanding at end of the fiscal year
+W01,Cash and deposits held at end of fiscal year - Debt service funds
+W31,Cash and deposits held at end of fiscal year - Bond funds
+W61,Cash and deposits held at end of fiscal year - Other funds
+
