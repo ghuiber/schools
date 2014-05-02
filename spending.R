@@ -11,10 +11,10 @@ rm(list=ls(all=TRUE))
 #download.file(allDataItemsUrl,destfile="./data/elsec11.txt",method="curl")
 #download.file(stateCountyUrl,destfile="./docs/national_county.txt",method="curl")
 
-# individual unit table, comma-delimited; no issues
+# individual unit (iu) table, comma-delimited; no issues
 iuData <- data.table(read.table("./data/elsec11t.txt",sep=",",header=TRUE,row.names = NULL))
 
-# all data items table, ditto; some screw-up in header of original txt file
+# all data items (adi) table, ditto; some screw-up in header of original txt file
 adiData <- data.table(read.table("./data/elsec11.txt",sep=",",header=TRUE,row.names = NULL))
 shiftNames <- names(adiData)
 setnames(adiData,shiftNames,c(shiftNames[-1],'drop'))
