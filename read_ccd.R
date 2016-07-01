@@ -4,6 +4,7 @@
 # http://stackoverflow.com/questions/3053833/using-r-to-download-zipped-data-file-extract-and-import-data
 library(data.table)
 library(dplyr)
+library(ggplot2)
 urls <- c("http://nces.ed.gov/ccd/data/zip/agn14pre_txt.zip", 
           "http://nces.ed.gov/ccd/data/zip/ag131a_supp_txt.zip",
           "http://nces.ed.gov/ccd/Data/zip/ag121a_supp_txt.zip", 
@@ -56,3 +57,22 @@ durhamco <- dplyr::select(durhamco, survyear, sch,
                           leaadm, leasup, schadm, schsup, stusup, othsup, 
                           member, speced, ell)
 save(durhamco, file = 'data/durham_people.RData')
+growth <- arrange(durhamco, survyear) %>% 
+  mutate(totstaff = totgui + libspe + leaadm + leasup + schadm + schsup + stusup + othsup) %>% 
+  select(survyear, sch, tottch, aides, totstaff, member) %>% 
+  tbl_df() %>%
+  tidyr::gather(., key = survyear)
+colnames(growth) <- c('year', 'group', 'count')
+
+plotit <- growth %>% 
+  group_by(group) %>% 
+  mutate(change = count/count[row_number() == 1]) %>%
+  filter(group != 'sch') %>% 
+  ungroup() %>%
+  mutate(group = factor(as.character(group), 
+                        levels = c('aides', 'member', 'totstaff', 'tottch'),
+                        labels = c('Aides', 'Students', 'Other staff', 'Teachers')))
+ggplot(data = plotit, aes(x = year, y = change, group = group, colour = group)) + 
+  geom_line() + 
+  ggtitle('Changes in DPS headcount by year')
+
